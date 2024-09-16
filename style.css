@@ -1,0 +1,265 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* top: 0px; */
+}
+#logo{
+    margin: 10px 20px;
+}
+#logo img{
+    height: 60px;
+    margin: 6px 16px;
+    border-radius: 50%;
+}
+#navbar ul{
+    display: flex;
+}
+.reg-btn{
+    margin-left: 50%;
+    background-color: brown;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-family: Poppins;
+    border: 1px solid brown;
+    font-size: 1rem;
+}
+.reg-btn a{
+    color: white;
+    text-decoration: none;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px 200px; */
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(home2.jpg) no-repeat center center/cover; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 76%;
+    width: 100%;
+    z-index: -1;
+}
+#home h1{
+    color: white;
+    align-items: center;
+}
+#home p{
+    color: white;
+    font-size: 1.3rem;
+}
+.h1-primary{
+    padding: 10px;
+    font-size: 3.2rem;
+}
+.h2-secondary{
+    padding: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: Poppins;
+}
+#center{
+    text-align: center;
+}
+.h1-primary{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Poppins;
+}
+.about-main-container{
+    display: flex;
+    margin: 20px 70px 20px 70px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.h1-about {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Poppins;
+    border-bottom: 1px solid  black;
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 20px;
+}
+.about-1{
+    padding: 10px 100px 0 60px;
+    font-size: 17px;
+    font-family: Poppins;
+}
+.about-2{
+    padding: 10px 70px 0 0;
+}
+.read-more{
+    padding: 6px 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: brown;
+    margin-top: 15px;
+    cursor:pointer
+}
+
+#service{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.h1-meal{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Poppins;
+    border-bottom: 1px solid black;
+    margin: 20px 70px 0px 70px;
+    padding-bottom: 20px;
+}
+.box{
+    text-align: center;
+    width: 280px;
+    height: 370px;
+    box-shadow: 2px 2px 8px;
+    margin: 35px;
+}
+.box p{
+    color: brown;
+    font-size: 1.2rem;
+    font-family: poppins;
+}
+.contact-h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Poppins;
+    border-bottom: 1px solid black;
+    margin: 20px 70px 0 70px;
+    padding-bottom: 20px;
+}
+.contact-main-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 190px 10px 190px;
+    background-color: brown;
+    /* border: 3px solid black; */
+}
+.one h1{
+    font-family: Poppins;
+    font-size: 2rem;
+    margin: 30px 0px 30px;
+}
+.con-info{
+    margin: 10px 0px 0px 20px; 
+}
+.con-info p{
+    margin: 20px 0px;
+    font-family: Poppins;
+    font-size: 0.9rem;
+}
+.one{
+    width: 450px;
+    height: 360px;
+    text-align: start;
+    color: white;
+    padding-top: 120px;
+    margin-left: 80px;
+    /* border: 3px solid black; */
+}
+.two{
+    width: 400px;
+    height: 480px;
+    background-color: antiquewhite;
+    margin: 20px 0px 20px 0px;
+    /* border: 3px solid black; */
+}
+.two input{
+    padding: 10px 0px 10px 10px ;
+    background-color: white;
+    margin: 20px 20px 20px 30px;
+    display: block;
+    width: 300px;
+    box-shadow: 1px 1px 8px;
+    border-radius: 10px;
+    border: none;
+}
+.type-message{
+    width: 300px;
+    height: 100px;
+}
+.submit-btn{
+    padding: 8px 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: brown;
+    margin: 5px 0px 0px 30px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.two h1{
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    margin: 30px 0px 0px 30px;
+}
+footer {
+    background-color: brown;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer .social-links {
+    margin-top: 10px;
+  }
+  
+  footer .social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Poppins;
+    margin: 20px;
+  }
+  
